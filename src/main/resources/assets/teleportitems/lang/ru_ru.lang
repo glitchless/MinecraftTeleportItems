@@ -22,3 +22,4 @@ teleportitems.homeset_allow_error_text=У вас нет прав для изме
 teleportitems.homeset_needitem_text=Для активации нужен оранжевый телепортатор Края
 
 teleportitems.homeset_text=Маяк восстановления активирован на [%s,%s,%s]
+itemGroup.tabTeleportItems=Предметы для телепортации

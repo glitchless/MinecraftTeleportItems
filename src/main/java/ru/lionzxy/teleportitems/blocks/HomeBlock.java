@@ -31,7 +31,6 @@ public class HomeBlock extends Block {
 
     public HomeBlock() {
         super(Material.IRON);
-        this.setCreativeTab(CreativeTabs.MISC);
         this.setHardness(3.0F);
         this.setResistance(8.0F);
         this.setSoundType(SoundType.METAL);

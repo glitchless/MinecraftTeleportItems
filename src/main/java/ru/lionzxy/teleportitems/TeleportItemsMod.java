@@ -1,5 +1,6 @@
 package ru.lionzxy.teleportitems;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
@@ -9,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 import ru.lionzxy.teleportitems.handlers.DeathHandler;
 import ru.lionzxy.teleportitems.handlers.TickHandler;
 import ru.lionzxy.teleportitems.proxy.ClientInit;
+import ru.lionzxy.teleportitems.proxy.CommonInit;
 import ru.lionzxy.teleportitems.proxy.ISide;
 import ru.lionzxy.teleportitems.proxy.ServerInit;
 

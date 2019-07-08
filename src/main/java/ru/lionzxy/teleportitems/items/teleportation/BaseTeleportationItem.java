@@ -8,6 +8,7 @@ import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.DimensionManager;
+import ru.lionzxy.teleportitems.TeleportItemsMod;
 import ru.lionzxy.teleportitems.exceptions.MinecraftTextFormattedException;
 import ru.lionzxy.teleportitems.storage.TeleportItemsConfig;
 import ru.lionzxy.teleportitems.storage.models.DimensionBlockPos;
@@ -15,11 +16,8 @@ import ru.lionzxy.teleportitems.storage.models.DimensionBlockPos;
 import javax.annotation.Nonnull;
 
 public abstract class BaseTeleportationItem extends Item {
-    private static final int UPDATE_RANGE = 16;
-
-
     public BaseTeleportationItem() {
-        this.setCreativeTab(CreativeTabs.MISC);
+
     }
 
     public static void teleportPlayer(EntityPlayer entity, DimensionBlockPos dimensionBlockPos) {

@@ -22,3 +22,4 @@ teleportitems.homeset_allow_error_text=Denied Permission!
 teleportitems.homeset_needitem_text=Activation requires one Orange Ender Teleporter
 
 teleportitems.homeset_text=Restoration Beacon activated at [%s,%s,%s]
+itemGroup.tabTeleportItems=Teleport Items
