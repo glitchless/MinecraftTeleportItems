@@ -1,0 +1,24 @@
+item.teleportitems_random.name=Red Ender Teleporter
+item.teleportitems_back.name=Green Ender Teleporter
+item.teleportitems_home.name=Orange Ender Teleporter
+item.teleportitems_spawn.name=Blue Ender Teleporter
+tile.teleportitems_homeset.name=Restoration Beacon
+
+item.teleportitems_random.description=Teleports player to a random location
+item.teleportitems_back.description=Teleports player to the last death spot
+item.teleportitems_home.description=Teleports player to Restoration Beacon
+item.teleportitems_spawn.description=Teleports player to World Center Beacon
+item.teleportitems_homeset.description=Allows player to teleport by using Orange Ender Teleporter
+
+teleportitems.delay_teleport_text=Waiting for warp to start. %d seconds remaining! Don’t move!
+teleportitems.moving_teleport_text=Warp denied due to moving or getting damaged
+teleportitems.teleporting_text=Warping…
+teleportitems.notback_text=Can’t find your last death spot
+teleportitems.nothome_text=Can’t find your restoration beacon
+teleportitems.homeset_done_text=Restoration Beacon activated
+teleportitems.homeset_already_text=Restoration Beacon is already activated. You can deactivate it by rightclick with empty arm
+teleportitems.homeset_clear_text=Restoration Beacon deactivated
+teleportitems.homeset_allow_error_text=Denied Permission!
+teleportitems.homeset_needitem_text=Activation requires one Orange Ender Teleporter
+
+teleportitems.homeset_text=Restoration Beacon activated at [%s,%s,%s]

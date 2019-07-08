@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "activatestate=disactivate": {
+      "model": "teleportitems:teleportitems_homeset"
+    },
+    "activatestate=activate": {
+      "model": "teleportitems:teleportitems_homeset_active"
+    }
+  }
+}

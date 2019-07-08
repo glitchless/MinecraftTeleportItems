@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "teleportitems:blocks/teleportitems_homeset",
+    "up": "teleportitems:blocks/teleportitems_homeset_upper_active",
+    "north": "teleportitems:blocks/teleportitems_homeset",
+    "east": "teleportitems:blocks/teleportitems_homeset",
+    "south": "teleportitems:blocks/teleportitems_homeset",
+    "west": "teleportitems:blocks/teleportitems_homeset",
+    "particle": "blocks/iron_block"
+  }
+}

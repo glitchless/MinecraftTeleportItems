@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "teleportitems",
+    "name": "Teleport Items",
+    "description": "Mod for teleport items (analog for some commands)",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "LionZXY",
+      "StealthTech"
+    ],
+    "credits": "The Forge and FML guys, for making Forge <3",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

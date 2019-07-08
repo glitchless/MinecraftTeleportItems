@@ -1,0 +1,24 @@
+item.teleportitems_random.name=Красный телепортатор Края
+item.teleportitems_back.name=Зеленый телепортатор Края
+item.teleportitems_home.name=Оранжевый телепортатор Края
+item.teleportitems_spawn.name=Синий телепортатор Края
+tile.teleportitems_homeset.name=Маяк восстановления
+
+item.teleportitems_random.description=Телепортирует игрока в случайное место на карте
+item.teleportitems_back.description=Телепортирует игрока на место последней смерти
+item.teleportitems_home.description=Телепортирует игрока к Маяку Восстановления
+item.teleportitems_spawn.description=Телепортирует игрока к Маяку Центра Мира
+item.teleportitems_homeset.description=Позволяет пользователю телепортироваться при помощи оражевого телепортатора Края
+
+teleportitems.delay_teleport_text=Ожидание начала телепортации. Осталось %d секунд! Не двигайтесь!
+teleportitems.moving_teleport_text=Телепортация отменена из-за передвижения или получения урона
+teleportitems.teleporting_text=Телепортация…
+teleportitems.notback_text=Не удается установить местоположение вашей последней смерти
+teleportitems.nothome_text=Не удается установить связь с Маяком Восстановления
+teleportitems.homeset_done_text=Маяк восстановления успешно активирован
+teleportitems.homeset_already_text=Маяк восстановления уже активирован. Вы можете деактивировать его, нажав на него правой кнопкой мыши с пустой рукой
+teleportitems.homeset_clear_text=Маяк восстановления деактивирован
+teleportitems.homeset_allow_error_text=У вас нет прав для изменения этого блока. Вы точно его владелец?
+teleportitems.homeset_needitem_text=Для активации нужен оранжевый телепортатор Края
+
+teleportitems.homeset_text=Маяк восстановления активирован на [%s,%s,%s]
