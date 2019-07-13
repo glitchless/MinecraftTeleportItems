@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "teleportitems:items/teleportitems_craft_topaz_dust"
+  }
+}

@@ -21,7 +21,7 @@ public class CraftItem extends Item {
     @SideOnly(Side.CLIENT)
     @Override
     public void getSubItems(CreativeTabs tab, NonNullList<ItemStack> subItems) {
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < CraftItemEnum.values().length; i++) {
             ItemStack subItemStack = new ItemStack(this, 1, i);
             subItems.add(subItemStack);
         }
@@ -30,6 +30,6 @@ public class CraftItem extends Item {
     @Override
     public String getUnlocalizedName(ItemStack stack) {
         int metadata = stack.getMetadata();
-        return super.getUnlocalizedName(stack) + "." + metadata;
+        return super.getUnlocalizedName(stack) + "_" + CraftItemEnum.getEnumByMeta(metadata).getName();
     }
 }

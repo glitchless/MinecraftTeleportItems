@@ -10,6 +10,21 @@ item.teleportitems_home.description=Teleports player to Restoration Beacon
 item.teleportitems_spawn.description=Teleports player to World Center Beacon
 item.teleportitems_homeset.description=Allows player to teleport by using Orange Ender Teleporter
 
+item.teleportitems_craft_pearl_dust.name=Pearl Dust
+item.teleportitems_craft_peridot_dust.name=Peridot Dust
+item.teleportitems_craft_home_core.name=Home Core
+item.teleportitems_craft_back_dust.name=Back Dust
+item.teleportitems_craft_topaz_dust.name=Topaz Dust
+item.teleportitems_craft_spawn_core.name=Spawn Core
+item.teleportitems_craft_random_core.name=Random Core
+item.teleportitems_craft_ruby_dust.name=Ruby Dust
+item.teleportitems_craft_home_dust.name=Home Dust
+item.teleportitems_craft_back_core.name=Back Core
+item.teleportitems_craft_sapphire_dust.name=Sapphire Dust
+item.teleportitems_craft_detail_half.name=Detail Half
+item.teleportitems_craft_spawn_dust.name=Spawn Dust
+item.teleportitems_craft_random_dust.name=Random Dust
+
 teleportitems.delay_teleport_text=Waiting for warp to start. %d seconds remaining! Don’t move!
 teleportitems.moving_teleport_text=Warp denied due to moving or getting damaged
 teleportitems.teleporting_text=Warping…

@@ -1,8 +1,10 @@
 package ru.lionzxy.teleportitems.proxy;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
 import ru.lionzxy.teleportitems.blocks.HomeBlockEnum;
+import ru.lionzxy.teleportitems.items.CraftItemEnum;
 
 public class ClientInit extends CommonInit {
 
@@ -14,14 +16,24 @@ public class ClientInit extends CommonInit {
     }
 
     private void initItemTexture() {
-        ModelResourceLocation backModelResourceLocation = new ModelResourceLocation("teleportitems:teleportitems_back", "inventory");
-        ModelResourceLocation homeModelResourceLocation = new ModelResourceLocation("teleportitems:teleportitems_home", "inventory");
-        ModelResourceLocation randomModelResourceLocation = new ModelResourceLocation("teleportitems:teleportitems_random", "inventory");
-        ModelResourceLocation spawnModelResourceLocation = new ModelResourceLocation("teleportitems:teleportitems_spawn", "inventory");
-        ModelLoader.setCustomModelResourceLocation(backTeleportationItem, 0, backModelResourceLocation);
-        ModelLoader.setCustomModelResourceLocation(homeTeleportationItem, 0, homeModelResourceLocation);
-        ModelLoader.setCustomModelResourceLocation(randomTeleportationItem, 0, randomModelResourceLocation);
-        ModelLoader.setCustomModelResourceLocation(spawnTeleportationItem, 0, spawnModelResourceLocation);
+        addItemTexture(backTeleportationItem, "back");
+        addItemTexture(homeTeleportationItem, "home");
+        addItemTexture(randomTeleportationItem, "random");
+        addItemTexture(spawnTeleportationItem, "spawn");
+
+        for (CraftItemEnum craftItemEnum : CraftItemEnum.values()) {
+            addItemTexture(craftItem, craftItemEnum.getMetadata(), "craft_" + craftItemEnum.getName());
+        }
+    }
+
+    private void addItemTexture(Item item, String modelKey) {
+        final ModelResourceLocation modelResourceLocation = new ModelResourceLocation("teleportitems:teleportitems_" + modelKey, "inventory");
+        ModelLoader.setCustomModelResourceLocation(item, 0, modelResourceLocation);
+    }
+
+    private void addItemTexture(Item item, int metadata, String modelKey) {
+        final ModelResourceLocation modelResourceLocation = new ModelResourceLocation("teleportitems:teleportitems_" + modelKey, "inventory");
+        ModelLoader.setCustomModelResourceLocation(item, metadata, modelResourceLocation);
     }
 
     private void initBlockTexture() {
