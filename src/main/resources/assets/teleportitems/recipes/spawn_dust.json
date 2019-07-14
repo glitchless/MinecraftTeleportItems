@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustSapphire"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustEnder"
+    }
+  ],
+  "result": {
+    "item": "teleportitems:teleportitems_craft",
+    "data": 12
+  }
+}

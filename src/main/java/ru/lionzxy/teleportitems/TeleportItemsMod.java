@@ -1,16 +1,14 @@
 package ru.lionzxy.teleportitems;
 
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import org.apache.logging.log4j.Logger;
 import ru.lionzxy.teleportitems.handlers.DeathHandler;
 import ru.lionzxy.teleportitems.handlers.TickHandler;
 import ru.lionzxy.teleportitems.proxy.ClientInit;
-import ru.lionzxy.teleportitems.proxy.CommonInit;
 import ru.lionzxy.teleportitems.proxy.ISide;
 import ru.lionzxy.teleportitems.proxy.ServerInit;
 
@@ -18,7 +16,7 @@ import ru.lionzxy.teleportitems.proxy.ServerInit;
 public class TeleportItemsMod {
     public static final String MODID = "teleportitems";
     public static final String NAME = "Teleport Items";
-    public static final String VERSION = "1.0.0";
+    public static final String VERSION = "1.0.3";
     private static TeleportItemsMod INSTANCE;
     private Logger logger;
 
@@ -40,6 +38,11 @@ public class TeleportItemsMod {
             side = new ServerInit();
         }
         side.preInit();
+    }
+
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+        side.postInit();
     }
 
     public ISide getSide() {

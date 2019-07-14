@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "X"
+  ],
+  "key": {
+    "X": {
+      "item": "teleportitems:teleportitems_craft",
+      "data": 11
+    },
+    "#": {
+      "item": "teleportitems:teleportitems_craft",
+      "data": 2
+    }
+  },
+  "result": {
+    "item": "teleportitems:teleportitems_home"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "type": "forge:ore_dict",
+      "ore": "dustEnder"
+    },
+    "X": {
+      "type": "forge:ore_dict",
+      "ore": "dustRuby"
+    }
+  },
+  "result": {
+    "item": "teleportitems:teleportitems_craft",
+    "data": 13
+  }
+}

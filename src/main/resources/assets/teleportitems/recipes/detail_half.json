@@ -1,0 +1,23 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " X ",
+    "X#X",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "type": "forge:ore_dict",
+      "ore": "paneGlass"
+    },
+    "X": {
+      "type": "forge:ore_dict",
+      "ore": "plateIron"
+    }
+  },
+  "result": {
+    "item": "teleportitems:teleportitems_craft",
+    "data": 11,
+    "count": 4
+  }
+}
