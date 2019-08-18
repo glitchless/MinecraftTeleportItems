@@ -8,7 +8,7 @@ import java.awt.*;
 import java.util.HashMap;
 
 public enum CraftItemEnum {
-    PEARL_DUST(0, null, "pearl_dust", "dustEnder"),
+    PEARL_DUST(0, null, "pearl_dust", null),
     PERIDOT_DUST(1, null, "peridot_dust", "dustPeridot"),
     HOME_CORE(2, null, "home_core", null),
     BACK_DUST(3, null, "back_dust", "dustBack"),

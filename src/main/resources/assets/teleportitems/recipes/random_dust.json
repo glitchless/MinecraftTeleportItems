@@ -7,8 +7,8 @@
   ],
   "key": {
     "#": {
-      "type": "forge:ore_dict",
-      "ore": "dustEnder"
+      "item": "teleportitems:teleportitems_craft",
+      "data": 0
     },
     "X": {
       "type": "forge:ore_dict",

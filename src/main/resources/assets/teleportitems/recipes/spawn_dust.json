@@ -6,8 +6,8 @@
       "ore": "dustSapphire"
     },
     {
-      "type": "forge:ore_dict",
-      "ore": "dustEnder"
+      "item": "teleportitems:teleportitems_craft",
+      "data": 0
     }
   ],
   "result": {

@@ -4,7 +4,9 @@ import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.*;
+import net.minecraft.util.ActionResult;
+import net.minecraft.util.EnumActionResult;
+import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.border.WorldBorder;
@@ -24,7 +26,7 @@ public class RandomTeleportationItem extends BaseTeleportationItem {
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
         if (TeleportItemsConfig.useRandomTeleportOnlyInOverworld && worldIn.provider.getDimension() != 0) {
-            return super.onItemRightClick(worldIn, playerIn, handIn);
+            return new ActionResult<ItemStack>(EnumActionResult.PASS, playerIn.getHeldItem(handIn));
         }
         return super.onItemRightClick(worldIn, playerIn, handIn);
     }

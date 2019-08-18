@@ -120,6 +120,8 @@ public class CommonInit implements ISide {
                 new ItemStack(craftItem, 8, CraftItemEnum.SAPPHIRE_DUST.getMetadata()));
         Recipes.macerator.addRecipe(Recipes.inputFactory.forOreDict("enderpearl"), null, false,
                 new ItemStack(craftItem, 8, CraftItemEnum.PEARL_DUST.getMetadata()));
+        Recipes.macerator.addRecipe(Recipes.inputFactory.forOreDict("dustEnder"), null, false,
+                new ItemStack(craftItem, 8, CraftItemEnum.PEARL_DUST.getMetadata()));
 
         Recipes.compressor.addRecipe(Recipes.inputFactory.forStack(CraftItemEnum.RANDOM_DUST.getItemStack(craftItem)),
                 null, false, CraftItemEnum.RANDOM_CORE.getItemStack(craftItem));
