@@ -16,6 +16,7 @@
     }
   },
   "result": {
-    "item": "teleportitems:teleportitems_random"
+    "item": "teleportitems:teleportitems_random",
+    "data": 0
   }
 }

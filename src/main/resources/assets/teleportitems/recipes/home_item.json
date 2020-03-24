@@ -16,6 +16,7 @@
     }
   },
   "result": {
-    "item": "teleportitems:teleportitems_home"
+    "item": "teleportitems:teleportitems_home",
+    "data": 0
   }
 }
