@@ -28,7 +28,7 @@ public class CommonInit implements ISide {
     protected HomeBlock homeBlock = new HomeBlock();
     protected ItemBlock homeItemBlock = new ItemBlock(homeBlock);
 
-    private TeleportItemsCreativeTab teleportItemsCreativeTab = new TeleportItemsCreativeTab(randomTeleportationItem);
+    protected TeleportItemsCreativeTab teleportItemsCreativeTab = new TeleportItemsCreativeTab(randomTeleportationItem);
 
     @Override
     public void preInit() {

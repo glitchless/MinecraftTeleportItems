@@ -2,6 +2,7 @@ item.teleportitems_random.name=Red Ender Teleporter
 item.teleportitems_back.name=Green Ender Teleporter
 item.teleportitems_home.name=Orange Ender Teleporter
 item.teleportitems_spawn.name=Blue Ender Teleporter
+item.instant_prefix.name=§5Instant
 tile.teleportitems_homeset.name=Restoration Beacon
 
 item.teleportitems_random.description=Teleports player to a random location

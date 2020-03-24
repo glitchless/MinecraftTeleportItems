@@ -21,6 +21,4 @@ public class TickHandler {
     public void handle(Runnable runnable) {
         queue.add(runnable);
     }
-
-
 }

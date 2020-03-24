@@ -16,7 +16,7 @@ import ru.lionzxy.teleportitems.proxy.ServerInit;
 public class TeleportItemsMod {
     public static final String MODID = "teleportitems";
     public static final String NAME = "Teleport Items";
-    public static final String VERSION = "1.0.3";
+    public static final String VERSION = "1.0.5";
     private static TeleportItemsMod INSTANCE;
     private Logger logger;
 

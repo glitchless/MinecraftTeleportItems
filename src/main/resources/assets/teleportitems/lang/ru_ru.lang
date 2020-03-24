@@ -2,6 +2,7 @@ item.teleportitems_random.name=Красный телепортатор Края
 item.teleportitems_back.name=Зеленый телепортатор Края
 item.teleportitems_home.name=Оранжевый телепортатор Края
 item.teleportitems_spawn.name=Синий телепортатор Края
+item.instant_prefix.name=§5Мгновенный
 tile.teleportitems_homeset.name=Маяк восстановления
 
 item.teleportitems_random.description=Телепортирует игрока в случайное место на карте

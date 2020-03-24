@@ -13,6 +13,7 @@ import net.minecraft.world.border.WorldBorder;
 import ru.lionzxy.teleportitems.exceptions.MinecraftTextFormattedException;
 import ru.lionzxy.teleportitems.storage.TeleportItemsConfig;
 import ru.lionzxy.teleportitems.storage.models.DimensionBlockPos;
+import ru.lionzxy.teleportitems.utils.WorldBlockHelper;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
@@ -54,7 +55,7 @@ public class RandomTeleportationItem extends BaseTeleportationItem {
 
     public static int findY(World world, int x, int z) {
         for (int y = 255; y > 0; y--) {
-            if (!world.isAirBlock(new BlockPos(x, y, z))) {
+            if (!WorldBlockHelper.isPlayerCapaciousBlock(world, new BlockPos(x, y, z))) {
                 return y + 1;
             }
         }
